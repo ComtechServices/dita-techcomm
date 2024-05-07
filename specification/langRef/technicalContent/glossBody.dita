@@ -3,8 +3,9 @@
 <reference id="glossBody" xml:lang="en-us">
 <title><xmlelement>glossBody</xmlelement></title>
 <shortdesc>The <xmlelement>glossBody</xmlelement> element contains information about the term
-    specified in the topic's <xmlelement>glossterm</xmlelement> element, such as the part of speech
-    and variants for the term.</shortdesc>
+    specified in the topic's <xmlelement>glossterm</xmlelement> element, such as
+    <?oxy_delete author="dawnstevens" timestamp="20240507T074606-0600" content="the part of speech and "?><?oxy_insert_start author="dawnstevens" timestamp="20240507T074606-0600"?>usage
+    and <?oxy_insert_end?>variants for the term.</shortdesc>
 <prolog><metadata>
 <keywords><indexterm><xmlelement>glossBody</xmlelement></indexterm>
             <indexterm>glossentry
@@ -23,23 +24,43 @@
          <p conkeyref="reuse-attributes/only-universal"/>
       </section>
       <example id="example" otherprops="examples">
-         <title>Example</title>
-      <p>The following code sample shows how the
-          <xmlelement>glossBody</xmlelement> element contains the part of
-        speech and variant forms for the term:</p>
-      <codeblock>&lt;glossentry id="sport-drink">
-    &lt;glossterm>Sport drink&lt;/glossterm>
-    &lt;glossdef>A soft drink designed or marketed for consumption in
+      <title>Example</title>
+      <p>The following code sample shows how the <xmlelement>glossBody</xmlelement> element
+        <?oxy_delete author="dawnstevens" timestamp="20240507T074641-0600" content="contains the part of speech"?><?oxy_insert_start author="dawnstevens" timestamp="20240507T074641-0600"?>provides
+        guidance about the usage of the term<?oxy_insert_end?> and variant forms for the term:</p>
+      <?oxy_delete author="dawnstevens" timestamp="20240507T074807-0600" content="&lt;codeblock&gt;&amp;lt;glossentry id=&quot;sport-drink&quot;&gt;
+    &amp;lt;glossterm&gt;Sport drink&amp;lt;/glossterm&gt;
+    &amp;lt;glossdef&gt;A soft drink designed or marketed for consumption in
     conjunction with sporting activity or strenuous exercise, and which
     typically contains electrolytes such as sodium, potassium, and
-    chloride, and a high percentage of sugar to restore energy.&lt;/glossdef>
-  <b>&lt;glossBody></b>
-    &lt;glossPartOfSpeech value="noun"/>
-    &lt;glossAlt>
-      &lt;glossSynonym>energy drink&lt;/glossSynonym>
-    &lt;/glossAlt>
-  <b>&lt;/glossBody></b>
-&lt;/glossentry></codeblock>
-      </example>
+    chloride, and a high percentage of sugar to restore energy.&amp;lt;/glossdef&gt;
+  &lt;b&gt;&amp;lt;glossBody&gt;&lt;/b&gt;
+    &amp;lt;glossPartOfSpeech value=&quot;noun&quot;/&gt;
+    &amp;lt;glossAlt&gt;
+      &amp;lt;glossSynonym&gt;energy drink&amp;lt;/glossSynonym&gt;
+    &amp;lt;/glossAlt&gt;
+  &lt;b&gt;&amp;lt;/glossBody&gt;&lt;/b&gt;
+&amp;lt;/glossentry&gt;&lt;/codeblock&gt;"?>
+      <?oxy_insert_start author="dawnstevens" timestamp="20240507T074811-0600"?>
+      <codeblock>&lt;glossentry id="pin">
+    &lt;glossterm>personal identification number&lt;/glossterm>
+    &lt;glossdef>A numerical code issued with a payment card that is required 
+       to be entered to complete various finanancial transactions. The core
+       purpose of this code is to provide an additional layer of security 
+       to the electronic transaction process.&lt;/glossdef>
+ <b>&lt;glossBody></b>
+       &lt;glossSurfaceForm>personal identification number (PIN)&lt;/glossSurfaceForm>
+       &lt;glossUsage>Use in the context of banking and finanacial transactions. For
+          context of Indian addresses, see &lt;xref href="postal_index_number.dita">.
+       &lt;glossAlt>
+          &lt;glossAcronym>PIN&lt;/glossAcronym>
+          &lt;glossUsage>Do not use the acronym followed by the word "number." It is
+             redundant as the 'N' in the acronym stands for the word "number."
+          &lt;/glossUsage>
+       &lt;/glossAlt>
+ <b>&lt;/glossBody></b></codeblock>
+      <?oxy_insert_end?>
+    </example>
 </refbody>
 </reference>
+<?oxy_options track_changes="on"?>

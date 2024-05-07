@@ -66,7 +66,7 @@
       &lt;glossUsage>Do not use; the American continents include other countries.&lt;/glossUsage>
     <b>&lt;/glossAlt>
     &lt;glossAlt></b>
-      &lt;glossAbbreviation>the States&lt;/glossAbbreviation>
+      &lt;glossA<?oxy_delete author="dawnstevens" timestamp="20240507T074506-0600" content="bbreviation"?><?oxy_insert_start author="dawnstevens" timestamp="20240507T074506-0600"?>cronym<?oxy_insert_end?>>the States&lt;/glossA<?oxy_delete author="dawnstevens" timestamp="20240507T074511-0600" content="bbreviation"?><?oxy_insert_start author="dawnstevens" timestamp="20240507T074511-0600"?>cronym<?oxy_insert_end?>>
       &lt;glossUsage>Informal. Typically used by English speakers outside of the country.&lt;/glossUsage>
     <b>&lt;/glossAlt></b>
   &lt;/glossBody><b>
@@ -75,3 +75,4 @@
     </example>
   </refbody>
 </reference>
+<?oxy_options track_changes="on"?>

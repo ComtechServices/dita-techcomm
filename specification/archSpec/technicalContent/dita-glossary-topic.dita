@@ -15,9 +15,8 @@
       <ul>
         <li>They ensure that a team of writers can use the same
           terminology.</li>
-        <li>They make it possible to create glossaries that can be use to
-          provide readers with definitions of terms and explanations about
-          acronyms.</li>
+        <li>They make it possible to create glossaries that can be used to provide readers with
+          definitions of terms and explanations about acronyms.</li>
       </ul>
     </section>
     <!--<section><title>The purpose of the glossary entry topic</title><p>Defining terminology in a glossary ensures that a team of writers uses the same term for the same concept. A glossary added to a book or available online in conjunction with other subject matter provides the reader with definitions of unfamiliar terms and expands acronyms.</p></section>-->
@@ -39,12 +38,27 @@
       <p>The following code sample contains a simple glossentry topic:</p>
       <codeblock>&lt;glossentry id="ddl">
   &lt;glossterm>data definition language&lt;/glossterm>
-  &lt;glossdef>A language used for defining database schemas&lt;/glossdef>
+  &lt;glossdef>A language used for defining database schemas&lt;/glossdef><?oxy_insert_start author="dawnstevens" timestamp="20240507T073646-0600"?>
+  &lt;glossBody>
+     &lt;glossSurfaceForm>data definition language (DDL)&lt;/glossSurfaceForm>
+     &lt;glossAlt>
+        &lt;glossAcronym>DDL&lt;/glossAcronym>
+     &lt;/glossAlt>
+   &lt;glossBody>
+   &lt;related-links>
+      &lt;link href="data_control_language.dita"/>
+      &lt;link href="data_manipulation_language.dita"/>
+      &lt;link href="data_query_language.dita"/>
+      &lt;link href="sql.dita"/><?oxy_insert_end?>
 &lt;/glossentry></codeblock>
       <draft-comment author="Kristen J Eberlein" time="07 October 2022">
-        <p>This should have a glossbody that specifies an acronym and a
-          surface term. Also related links.</p>
+        <p>This should have a glossbody that specifies an acronym and a surface term. Also related
+          links.</p>
       </draft-comment>
+      <?oxy_insert_start author="dawnstevens" timestamp="20240507T073655-0600"?>
+      <draft-comment author="dawnstevens">Done</draft-comment>
+      <?oxy_insert_end?>
     </example>
   </conbody>
 </concept>
+<?oxy_options track_changes="on"?>

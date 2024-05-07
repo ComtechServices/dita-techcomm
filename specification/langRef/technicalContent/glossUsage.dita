@@ -21,10 +21,7 @@
       <title>Specialization hierarchy</title>
       <p>The <xmlelement>glossUsage</xmlelement> element is specialized from
           <xmlelement>note</xmlelement>. It is defined in the glossary entry module.</p>
-      <draft-comment author="dawnstevens">Although I realize the element is specialized from Note, I
-        question the need to point out the type and othertype attributes; they don't seem to me to
-        have any meaning in the content of a usage note. A usage note is type usage note, in my
-        mind. Why would anyone specify any type or othertype?</draft-comment>
+      <?oxy_delete author="dawnstevens" timestamp="20240507T081126-0600" content="&lt;draft-comment author=&quot;dawnstevens&quot;&gt;Although I realize the element is specialized from Note, I question the need to point out the type and othertype attributes; they don&apos;t seem to me to have any meaning in the content of a usage note. A usage note is type usage note, in my mind. Why would anyone specify any type or othertype?&lt;/draft-comment&gt;"?>
     </section>
     <section conkeyref="reuse-note/attributes" id="attributes"/>
     <example id="example" otherprops="examples">
@@ -53,3 +50,4 @@
     </example>
   </refbody>
 </reference>
+<?oxy_options track_changes="on"?>
